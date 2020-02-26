@@ -8,6 +8,7 @@
 在访问网上的资源的时候，普通可能会问地址是什么，而程序猿一般会问URL是什么。但其实除了URL，还有URI。那么URL、URI究竟是啥呢？和地址有啥不同呢？(其实还有URN)
 先给一张图
 ![图1](https://github.com/lewiscrow/spider-python/blob/master/images/day1-1.png)
+
 URI(Uniform Resource Identifier，URI)可被视为定位符（Uniform Resource Locator,URL），名称（Uniform Resource Name,URN）或两者兼备。统一资源名（URN）如同一个人的名称，而统一资源定位符（URL）代表一个人的住址。换言之，URN定义某事物的身份，而URL提供查找该事物的方法。
 用于标识唯一书目的ISBN系统是一个典型的URN使用范例。例如，ISBN 0-486-27557-4无二义性地标识出莎士比亚的戏剧《罗密欧与朱丽叶》的某一特定版本。为获得该资源并阅读该书，人们需要它的位置，也就是一个URL地址。在类Unix操作系统中，一个典型的URL地址可能是一个文件目录，例如file:///home/username/RomeoAndJuliet.pdf。该URL标识出存储于本地硬盘中的电子书文件。因此，URL和URN有着互补的作用。
 URN就如同上面图书的索引一样，命名规则可以人为进行定制。其实如果这世界上的人的名字不能重复，那么名字也可以作为人的URN。
